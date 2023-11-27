@@ -6,7 +6,7 @@ from fastapi import HTTPException
 
 class DatabaseManager:
 
-    def __init__(self, database_url = "postgresql://postgres:918@localhost/ticket"):
+    def __init__(self, database_url = "Your settings"):
         self.database_url = database_url
         self._database = None
 

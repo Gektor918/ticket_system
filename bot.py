@@ -9,7 +9,7 @@ from aiogram.types import Message
 
 from services_bot import *
 
-bot = Bot("6639268743:AAH3r5cJJ13Qi5sDr1_D0D6LJNbgyJeKimo", parse_mode=ParseMode.HTML)
+bot = Bot("Your token", parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 
